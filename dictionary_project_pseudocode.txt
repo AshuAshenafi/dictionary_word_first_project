@@ -1,0 +1,59 @@
+/*
+*This program receives ten words from the user and prints 
+* 1. according to the insertion order
+* 2. alphabetical order
+* 3. reverse alphabetical order
+* 4. it also prints words that start with vowels
+*/
+
+1. start
+
+2. create an array with the five vowels all in small letter, arrays, variables
+
+3. Prompt user to enter ten words
+
+4. loop, scan and save the 10 words in the first array 
+
+// ALPHABETICAL ORDER
+*******************************************
+4. copy the array to the second array (for the first array to preserve insertion order)
+
+//use bubble sort algorith to sort
+5. (use second array) get the first index array value and the second next index array value
+
+6. compare and if the second value is alphabeticaly prior to the first then swap
+
+// so the value in the prime index is alphabeticaly prior 
+
+7. move the index one step in line 5 ( that is the first index) and finish the loop until the last index
+
+//REVERSE ALPHABETICAL ORDER
+********************************************
+8. copy the second array (which is already in ascending order) to third copy to start the reversing
+
+9. (use third array) index shall start from one value lesser than array length and another index value 
+(like variable num) shall start from zero
+
+10. The last index value of the third array is assigned to the zero index value of the second array.
+The first index goes decreasing to zero while the second index go increasing from zero and 
+second array values are assigned accordingly.
+
+//WORDS THAT START WITH VOWEL
+11. (use the second array or which is already sorted)
+     Assign the first index array value to temporary variable
+
+12. change the temporary string variable in line 11 into lower case
+
+13. get the first character of the temp string and compare it with all the values of vowel array
+
+14. if the string starts with the vowel get the array value into the fourth new array
+
+//display
+15. display original array with insertion order
+
+16. display the second array with alphabetical order
+
+17. display the third array with reverse alphabetical order
+
+18. display the fourth array with words that start with vowels
+
