@@ -14,7 +14,7 @@
 
 4. loop, scan and save the 10 words in the first array 
 
-// ALPHABETICAL ORDER
+// ALPHABETICAL ORDER BUBBLE SORT
 *******************************************
 4. copy the array to the second array (for the first array to preserve insertion order)
 
@@ -23,9 +23,8 @@
 
 6. compare and if the second value is alphabeticaly prior to the first then swap
 
-// so the value in the prime index is alphabeticaly prior 
 
-7. move the index one step in line 5 ( that is the first index) and finish the loop until the last index
+7. move the index both arrays one step ahead and finish the loop until the last index
 
 //REVERSE ALPHABETICAL ORDER
 ********************************************

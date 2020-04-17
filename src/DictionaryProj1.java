@@ -38,19 +38,21 @@ public class DictionaryProj1 {
         }
 
         //bubble sort algorithm
-        for(int i =0; i < str2.length; i++) {
-            for(int j = i+1; j < str2.length; j++)  {
+        for(int i = 0; i < str2.length - 1; i++) {
+            for (int j = 0; j < str2.length - i - 1; j++) {
                 //change the value to lowercase for fair comparison (the value entered might be
                 // either small or capital letter)
-                String temp1 = str2[i].toLowerCase();
+                String temp1 = str2[j].toLowerCase();
                 //change the value to lowercase
-                String temp2 = str2[j].toLowerCase();
+                String temp2 = str2[j + 1].toLowerCase();
                 //make comparison between two strings
-                if(temp2.compareTo(temp1) < 0)  {
+                if (temp2.compareTo(temp1) < 0) {
                     //swaping of values
-                    String temp = str2[i];
-                    str2[i] = str2[j];
-                    str2[j] = temp;
+                    String temp = str2[j];
+                    str2[j] = str2[j + 1];
+                    str2[j + 1] = temp;
+
+
                 }
             }
 
